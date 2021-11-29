@@ -5,14 +5,15 @@
 训练所得模型及处理好的数据集见百度网盘链接：
 
 
+定位到scripts文件夹下
 
 1.训练
-  cd srcipts
+
   python train.py 
 
 
 2.测试
-  cd srcipts
+ 
   python test.py 
   
   也可以自己定义各类参数和维度。
