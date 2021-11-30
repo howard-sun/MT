@@ -147,7 +147,7 @@ def main():
 def parse_args():
     parser = argparse.ArgumentParser()
     # 环境参数
-    parser.add_argument('--mode', choices=('train', 'test', 'val'), default='train')
+    parser.add_argument('--mode', choices=('train', 'test', 'val'), default='test')
     parser.add_argument('--fp16', action='store_true', help='Use fp16')
     parser.add_argument('--gpu', type=int, default=0)
 
